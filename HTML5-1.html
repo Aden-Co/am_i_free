@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>"Is Aden Avalible?"</title>
+</head>
+<body>
+    <p><b><big>Is Aden Avalible?</big></b></p>
+    
+<form action="/action_page.php">
+Date: <input type="text" name="Date"><br>
+Time: <input type="text" name="Time"><br>
+
+</form> 
+<button onclick="myFunction()">Is he free?</button>
+
+
+    <script>
+        function myFunction() {
+        var Marr = [
+                    "Maybe",
+                    "Perhaps",
+                    "Could be",
+                    "Conceivably",
+                    "Perchance",
+                    "Might be",
+                    "It is feasible",
+                    "I can neither confirm nor deny wether or not he will attend",
+                    "Potentially",
+                    "There is a chance",
+                    "Theoretically",
+                    "It is attainable",
+                    "Plausibly",
+                    "INDETERMINATE",
+                    "Hypothetically",
+                    
+                    ];
+        var randomItem = Marr[Math.floor(Math.random()*Marr.length)];
+        alert(randomItem);
+        }
+        
+        
+    </script>
+    
+
+</body>
+</html>
